@@ -1,19 +1,14 @@
 ---
-title: reveal-md deployed to gh-pages
+title: Symfony craft slides 
 separator: <!--s-->
 verticalSeparator: <!--v-->
-theme: solarized
-highlight-theme: monokai
+theme: white
+highlight-theme: monokai 
 css: custom.css
 revealOptions:
-  controls: false
-  slideNumber: false
+  controls: true
+  slideNumber: true
   transition: 'slide'
   backgroundTransition: 'fade'
 ---
-
-# reveal-md & github-pages
-
-{{1_getStarted.md}}
-{{2_writing.md}}
-{{3_extras.md}}
+{{slides/0_introduction/1_introduction.md}}

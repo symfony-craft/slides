@@ -9,7 +9,7 @@
 ## get started
 
 * just press this nice & friendly green button
-![nice & friendly green button](img/1_pressButton.png)
+![nice & friendly green button](../img/1_pressButton.png)
 
 <!--s-->
 ## get started
@@ -18,10 +18,10 @@
 * keep it public! (or git will deny to publish it)
 
 <!--s-->
-## get started
+## Get started
 
 * choose 'gh-pages' to be the public-branch
-![settings](img/2_settings.png)
+![settings](../img/2_settings.png)
 
 <!--s-->
 ## get started
@@ -32,4 +32,4 @@
   * github-bug? ¯\\_(ツ)_/¯
 
 <!--s-->
-![settings](img/3_selectBranch.png)
+![settings](../img/3_selectBranch.png)
