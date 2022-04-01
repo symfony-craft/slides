@@ -40,3 +40,5 @@
 - [ ] How to handle the user ? 
 - [ ] How to handle authentication ?
 - [ ] How to handle autorization ?
+- [ ] How to validate the domain models ? 
+- [ ] How to validate the command/query/use case inputs ? 
