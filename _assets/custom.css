@@ -32,7 +32,7 @@ html.dimBackground .slide-background { opacity: 0.4 !important; }
 
 /* inline-code with light grey background*/
 .reveal code {
-  /* background: #F5F5F5; /* lighter */
+  /* background: #F5F5F5; !* lighter */
   background: #e7e8e2; /* darker */
   border-radius: 2px;
   padding: 1px;
