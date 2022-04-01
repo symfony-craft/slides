@@ -2,9 +2,10 @@
 
 *This repository is a non-official Symfony repository*
 
-## writing content
+## Writing content
 
 * edit the markdown-file `slides.md`
+* add your slides in the slides folder
 * find all configurations on [reveal-md](https://github.com/gaerfield/reveal-md-github-pages)
 
 ## view changes locally
@@ -19,7 +20,7 @@
   * the browser should open automatically
 
 
-## Questions 
+## Craft questions 
 
 - [ ] How to structure my directories ?
 - [ ] How to config Symfony to handle the directory structure ?
