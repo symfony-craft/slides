@@ -37,3 +37,9 @@
 /*  border-radius: 2px;*/
 /*  padding: 1px;*/
 /*}*/
+
+:root {
+    --r-background-color: #f4f4f4;
+    --r-main-color: #313131;
+    --r-heading-color: #313131;
+}
