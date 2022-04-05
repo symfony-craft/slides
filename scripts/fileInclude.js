@@ -1,6 +1,7 @@
 var fs = require('fs');
 
 module.exports = (markdown) => {
+
   return markdown
     .split('\n')
     .map((line, index) => {

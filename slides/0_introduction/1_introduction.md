@@ -1,6 +1,7 @@
 
 # Symfony craft
-Non-official Symfony website 
+
+*Nonofficial Symfony website*
 
 <!--s-->
 <!-- .slide: id="introduction" -->

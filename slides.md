@@ -12,3 +12,5 @@ revealOptions:
   backgroundTransition: 'fade'
 ---
 {{slides/0_introduction/1_introduction.md}}
+{{slides/1_test_uses_cases/0_index.md}}
+{{slides/1_test_uses_cases/1_behat_way.md}}
