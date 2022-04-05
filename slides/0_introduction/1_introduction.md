@@ -1,7 +1,7 @@
 
 # Symfony craft
 
-*Nonofficial Symfony website*
+*This is a nonofficial Symfony website to discover craftsmanship with Symfony*
 
 <!--s-->
 <!-- .slide: id="introduction" -->
