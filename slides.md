@@ -3,7 +3,7 @@ title: Symfony craft slides
 separator: <!--s-->
 verticalSeparator: <!--v-->
 theme: white
-highlight-theme: monokai-sublime
+highlight-theme: monokai
 css: custom.css
 revealOptions:
   controls: true

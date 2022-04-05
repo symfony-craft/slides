@@ -2,14 +2,18 @@ var fs = require('fs');
 
 module.exports = (markdown) => {
 
-  return markdown
-    .split('\n')
-    .map((line, index) => {
-      if(/^{{.*}}$/.test(line))
-        return readIncludeFile(line)
-      return line
-    })
-    .join('\n')
+  return deepInclude(markdown)
+}
+
+const deepInclude = (file) => {
+    return file
+        .split('\n')
+        .map((line, index) => {
+            if(/^{{.*}}$/.test(line))
+                return deepInclude(readIncludeFile(line))
+            return line
+        })
+        .join('\n')
 }
 
 const readIncludeFile = includeCommand => {
