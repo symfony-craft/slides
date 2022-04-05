@@ -2,9 +2,10 @@
 
 *This repository is a non-official Symfony repository*
 
-## writing content
+## Writing content
 
 * edit the markdown-file `slides.md`
+* add your slides in the slides folder
 * find all configurations on [reveal-md](https://github.com/gaerfield/reveal-md-github-pages)
 
 ## view changes locally
@@ -19,22 +20,25 @@
   * the browser should open automatically
 
 
-## Questions 
+## Craft questions 
 
-- [] How to structure my directories ?
-- [] How to config Symfony to handle the directory structure ?
-- [] How to test my use cases ? 
-- [] How to test my adapters ? 
-- [] How to call the hexagon use cases ?
-- [] How to create hexagon command ?
-- [] How to create hexagon queries ? 
-- [] How to persist my entities ?
-- [] How to add ~~DDD~~ POO ?
-- [] How to add DDD ? 
-- [] How to create a repository ? 
-- [] How to add domain events ? 
-- [] How to add integration events ? 
-- [] How to use symfony forms with our uses cases ? 
-- [] How to use API Platform ? 
-- [] How to handle the user ? 
-- [] How to handle security ?
+- [ ] How to structure my directories ?
+- [ ] How to config Symfony to handle the directory structure ?
+- [ ] How to test my use cases ? 
+- [ ] How to test my adapters ? 
+- [ ] How to call the hexagon use cases ?
+- [ ] How to create hexagon command ?
+- [ ] How to create hexagon queries ? 
+- [ ] How to persist my entities ?
+- [ ] How to add ~~DDD~~ POO ?
+- [ ] How to add DDD ? 
+- [ ] How to create a repository ? 
+- [ ] How to add domain events ? 
+- [ ] How to add integration events ? 
+- [ ] How to use symfony forms with our uses cases ? 
+- [ ] How to use API Platform ? 
+- [ ] How to handle the user ? 
+- [ ] How to handle authentication ?
+- [ ] How to handle autorization ?
+- [ ] How to validate the domain models ? 
+- [ ] How to validate the command/query/use case inputs ? 
