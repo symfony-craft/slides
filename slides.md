@@ -9,8 +9,13 @@ revealOptions:
   controls: true
   slideNumber: true
   transition: 'slide'
-  backgroundTransition: 'fade'
+  backgroundTransition: 'slide'
 ---
+# Symfony craft
+
+*This is a nonofficial Symfony website to discover craftsmanship with Symfony*
+
+
+
 {{slides/0_introduction/1_introduction.md}}
 {{slides/1_test_uses_cases/0_index.md}}
-{{slides/1_test_uses_cases/1_behat_way.md}}

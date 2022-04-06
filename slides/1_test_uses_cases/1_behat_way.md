@@ -1,3 +1,4 @@
+<!--s-->
 # The behat way 
 
 
@@ -62,6 +63,3 @@ Feature: As an applicant, I can apply to a job
 These steps allow you to set up the state of your application 
 <!--v-->
 
-
-
-<!--s-->
