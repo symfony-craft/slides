@@ -20,7 +20,7 @@
 
 # Symfony craft
 
-*Nonofficial Symfony website*
+*This is a nonofficial Symfony website to discover craftsmanship with Symfony*
 
 </script></section><section  data-markdown><script type="text/template">
 <!-- .slide: id="introduction" -->
@@ -29,14 +29,88 @@
 
 </script></section><section  data-markdown><script type="text/template">
 
+
+## Feel free to add your implementation ! 
+<br>
+<br>
+
+[symfony-craft/slides](https://github.com/symfony-craft/slides)
+
+</script></section><section  data-markdown><script type="text/template">
+
+
 <!-- .slide: id="how-to-test-the-use-cases" -->
 # How to test the use cases ?
+
+</script></section><section  data-markdown><script type="text/template">
+The functional tests must only test the behavior of your application. 
+They trigger the uses cases of your hexagon. 
+And they test the finality of the user action, not the implementation details.
 
 </script></section><section ><section data-markdown><script type="text/template">
 
 # The behat way 
 
 
+
+
+</script></section><section data-markdown><script type="text/template">
+To test the use cases we use behat and the gherkin syntax. 
+<br><br>
+This syntax allows you to describe your feature with concrete examples. 
+These examples must be made in a functional way, we avoid implementation details. 
+<br><br>
+To ensure that the scenario is good, the scenario must work in any context (web app, API, console app)
+
+</script></section><section data-markdown><script type="text/template">
+## This is a feature file : 
+```gherkin
+Feature: As an applicant, I can apply to a job
+
+  Background:
+    Given these companies are registered :
+      | id | name       | email                  |
+      | 1  | SensioLabs | contact@sensiolabs.com |
+
+  Scenario: apply for a job
+    Given these jobs are registered :
+      | id | companyId | title                    | description                                                     |
+      | 1  | 1         | Senior Symfony developer | We are looking for a senior symfony developer with craft skills |
+    When I apply for the job "1" with the email "etienne@lebarillier.fr"
+    Then these applicants should be registered :
+      | email                  | applications |
+      | etienne@lebarillier.fr | 1            |
+
+```
+
+</script></section><section data-markdown><script type="text/template">
+
+## Given
+
+```gherkin [4-6, 9-11]
+Feature: As an applicant, I can apply to a job
+
+  Background:
+    Given these companies are registered :
+      | id | name       | email                  |
+      | 1  | SensioLabs | contact@sensiolabs.com |
+
+  Scenario: apply for a job
+    Given these jobs are registered :
+      | id | companyId | title                    | description                                                     |
+      | 1  | 1         | Senior Symfony developer | We are looking for a senior symfony developer with craft skills |
+    When I apply for the job "1" with the email "etienne@lebarillier.fr"
+    Then these applicants should be registered :
+      | email                  | applications |
+      | etienne@lebarillier.fr | 1            |
+
+```
+
+</script></section><section data-markdown><script type="text/template">
+
+## Given
+
+These steps allow you to set up the state of your application 
 </script></section><section data-markdown><script type="text/template">
 
 

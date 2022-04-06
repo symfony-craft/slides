@@ -1,9 +1,10 @@
 /*html.dimBackground .slide-background { opacity: 0.4 !important; }*/
 
-/*!* make code sections larger *!*/
-/*.reveal pre code {*/
-/*    max-height: 525px;*/
-/*}*/
+/* make code sections larger */
+.reveal pre code {
+    max-height: 600px;
+    font-size: 18px;
+}
 
 /*!* images without borders *!*/
 /*.reveal section img { background:none; border:none; box-shadow:none; }*/
