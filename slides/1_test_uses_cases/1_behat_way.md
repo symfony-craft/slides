@@ -12,7 +12,7 @@ These examples must be made in a functional way, we avoid implementation details
 To ensure that the scenario is good, the scenario must work in any context (web app, API, console app)
 
 <!--v-->
-### This is a feature file : 
+## This is a feature file : 
 ```gherkin
 Feature: As an applicant, I can apply to a job
 
