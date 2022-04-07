@@ -8,6 +8,6 @@ The functional tests must only test the behavior of your application.
 They trigger the uses cases of your hexagon. 
 And they test the finality of the user action, not the implementation details.
 
-{{slides/1_test_uses_cases/1_behat_way.md}}
+{{slides/how_to_test_use_cases/1_behat_way.md}}
 
 {{include/your_implementation.md}}

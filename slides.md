@@ -17,5 +17,9 @@ revealOptions:
 
 
 
-{{slides/0_introduction/1_introduction.md}}
-{{slides/1_test_uses_cases/0_index.md}}
+{{slides/0_introduction/introduction.md}}
+{{slides/how_to_test_use_cases/0_index.md}}
+{{slides/how_to_structure_your_directories/0_index.md}}
+{{slides/how_to_test_secondary_adapters/0_index.md}}
+{{slides/how_to_call_hexagon_use_cases/0_index.md}}
+{{slides/how_to_persist_entities/0_index.md}}

@@ -23,7 +23,6 @@
 ## Craft questions 
 
 - [ ] How to structure my directories ?
-- [ ] How to config Symfony to handle the directory structure ?
 - [ ] How to test my use cases ? 
 - [ ] How to test my adapters ? 
 - [ ] How to call the hexagon use cases ?
